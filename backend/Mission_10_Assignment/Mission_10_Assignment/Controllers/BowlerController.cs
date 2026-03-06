@@ -15,7 +15,7 @@ namespace Mission_10_Assignment.Controllers
         }
         
         [HttpGet]
-        public IEnumerable<object> GetBowlers()
+        public IEnumerable<object> GetBowlers() // Gets a list of Bowler Objects.
         {
             return (from b in _context.Bowlers // SQL Query to find requested info
                 join t in _context.Teams
