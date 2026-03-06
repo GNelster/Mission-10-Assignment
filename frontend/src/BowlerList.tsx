@@ -17,7 +17,6 @@ function BowlerList() {
 
   return (
     <>
-      <h2>Marlins & Sharks Bowling Teams</h2>
       <table>
         <thead>
           <tr>
